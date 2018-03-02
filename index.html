@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Profile</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+    <!-- Style -->
+    <style>
+    body {
+        background-color: wheat
+    }
+
+    .profile {
+        margin: 20px 0;
+    }
+
+    .profile-sidebar {
+        padding: 0px;
+        background: #fff;
+    }
+
+    .profile-user-pic {
+        float: none;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .profile-user-title {
+        text-align: left;
+        margin: 20px 20px;
+    }
+
+    .profile-user-name {
+        color: black;
+        font-size: 25px;
+        padding: 10px 10px 0px 10px;
+    }
+
+    .profile-user-job {
+        text-transform: uppercase;
+        color: blue;
+        font-size: 10px;
+        padding: 0px 10px 10px 10px;
+    }
+
+    .profile-user-phone, .profile-user-email, .profile-user-address {
+        color: black;
+        font-size: 13px;
+        padding: 5px 10px;
+    }
+
+    .profile-user-buttons {
+        text-align: center;
+        margin: 10px;
+    }
+
+    .btn {
+        text-transform: uppercase;
+        font-size: 10px;
+        padding: 5px 15px;
+        margin: 3px;
+    }
+
+    .profile-user-menu {
+        background-color: aqua
+    }
+
+    .profile-user-menu li {
+        display: inline-block;
+        justify-content: center;
+        
+    }
+    
+    .profile-content {
+        padding: 0px;
+        font-size: 15px;
+        background-color: white;
+    }
+
+    .experience {
+        padding: 0px 30px;
+    }
+
+    .skills {
+        padding: 0px 30px 20px 30px;;
+    }
+
+
+    </style>
+    
+</head>
+<body>
+    
+    <div class="container">
+        <div class="row profile">
+            <div class="col-md-3"> 
+                <div class="profile-sidebar">
+                    <div class="profile-user-pic">
+                        <img src="https://picsum.photos/300/300/?random" alt="" class="img-responsive">
+                    </div>
+                    <div class="profile-user-title">
+                        <div class="profile-user-name">
+                            Maulana Kamal
+                        </div>
+                        <div class="profile-user-job">
+                            Student Job Connector
+                        </div>
+                        <div class="profile-user-phone">
+                            Phone : <br> +62 812-9876-4168
+                        </div>
+                        <div class="profile-user-email">
+                            Email : <br> mkamal.pasyaa@gmail.com
+                        </div>
+                        <div class="profile-user-address">
+                            Address : <br> Kalibata city, Tower akasia / 06AR
+                        </div>
+
+                    </div>
+                    <div class="profile-user-buttons">
+                        <button class="btn btn-success btn-sm"><i class="glyphicon glyphicon-log-in"></i> read more</button>
+                        <button class="btn btn-primary btn-sm"><i class="
+                            glyphicon glyphicon-download-alt"></i> download</button>
+                    </div> 
+                    <div class="profile-user-menu">
+                        <ul class="nav">
+                            <li class="active"><a href=""><i class="glyphicon glyphicon-home"></i></a></li>
+                            <li><a href=""><i class="glyphicon glyphicon-search"></i></a></li>
+                        </ul>
+                    </div> 
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="profile-content">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="program.mp4"></iframe>
+                    </div>
+                    <div class="experience">
+                        <h3>Experience</h3>
+                        <ul>
+                            <li> 2015 : Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae, vero!</li>
+                            <li> 2016 : Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae, vero!</li>
+                            <li> 2017 : Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae, vero!</li>
+                        </ul>
+                    </div>
+                    <div class="skills">
+                        <h3>Skills</h3>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%">
+                                HTML/CSS<span class="sr-only">30% Complete</span>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                                JavaScript<span class="sr-only">60% Complete</span>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+                                React Native<span class="sr-only">50% Complete</span>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                                Photograpy<span class="sr-only">90% Complete</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
